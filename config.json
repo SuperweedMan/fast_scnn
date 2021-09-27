@@ -1,0 +1,22 @@
+{
+    "data_root_path": "C:/Users/wyz/dataset/cityscapes",
+    "probality_of_flip": 0.5,
+    "probality_of_gaussian_blur": 0.5,
+    "pad_resize": [512, 512],
+    "shuffle": true,
+    "trainID_labels": {"0": "road", "1": "sidewalk", "2": "building", "3": "wall", "4": "fence", "5": "pole", "6": "traffic light", "7": "traffic sign", "8": "vegetation",
+        "9": "terrain", "10": "sky", "11": "person", "12": "rider", "13": "car", "14": "truck", "15": "bus", "16": "train", "17": "motorcycle", "18": "bicycle", "255": "background"},
+        
+        
+    "batch_size": 50,
+    "batch_size_of_val":40, 
+    "epochs": 20,
+    "interval_of_save_weight": 2,
+    "interval_of_val": 1,
+    "lr": 1e-2,
+    "momentum": 0.9,
+    "weight_decay": 1e-4,
+
+    "is_resume": true
+
+}
